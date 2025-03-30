@@ -1,0 +1,20 @@
+.weatherPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.selectWrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+.contentCard {
+  padding-bottom: 20%;
+}
+
+.weatherContent {
+  display: flex;
+  gap: 2px;
+}
