@@ -20,7 +20,7 @@ export const WeatherCard: React.FC<{ info: IDay }> = ({ info }) => {
       <h1>{info.date}</h1>
       <Image
         className="image"
-        src={detail?.img}
+        src={detail?.img as string}
         alt="Next.js logo"
         width={40}
         height={38}
